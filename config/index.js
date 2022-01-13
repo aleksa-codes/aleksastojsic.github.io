@@ -23,8 +23,6 @@ module.exports = {
       scrollBar: "rgba(0, 0, 0, 0.5)",
       boxShadow: "rgba(0, 0, 0, 0.16)",
       boxShadowHover: "rgba(0, 0, 0, 0.32)",
-      underlineSecondary: "#CDF3E1",
-      underlineTertiary: "#F2F2F2",
     },
     darkTheme: {
       primary: "#FAFAFA",
@@ -37,8 +35,6 @@ module.exports = {
       scrollBar: "rgba(255, 255, 255, 0.5)",
       boxShadow: "rgba(0, 0, 0, 0.16)",
       boxShadowHover: "rgba(0, 0, 0, 0.32)",
-      underlineSecondary: "#CDF3E1",
-      underlineTertiary: "#F2F2F2",
     },
   },
   fonts: {
