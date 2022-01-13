@@ -13,7 +13,7 @@ const React = require("react")
 
 exports.onRenderBody = ({ setPostBodyComponents }) => {
   setPostBodyComponents([
-    // Let it go, let it go...(Frozen)
+    // sn0w on/off
     // <div className="snow"></div>,
     <script
       data-name="BMC-Widget"
