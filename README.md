@@ -16,8 +16,3 @@ This website has been created using :
 
 - [Gatsby](https://www.gatsbyjs.org/)
 - [Github pages](https://pages.github.com/)
-- Passion ♥️
-
-## Feel free to contact me
-
-✉️ stojsic.aleksa@gmail.com
