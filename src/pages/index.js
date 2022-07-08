@@ -41,9 +41,9 @@ const IndexPage = ({ data }) => {
           {{
             '@context': 'http://schema.org/',
             '@type': 'Person',
-            name: 'Aleksa Stojsic',
+            name: 'Aleksa',
             jobTitle: 'Web Developer',
-            url: 'https://aleksa-stojsic.github.io',
+            url: 'https://aleksastojsic.github.io',
             alumniOf: {
               '@type': 'CollegeOrUniversity',
               name: 'Singidunum University',
@@ -51,7 +51,7 @@ const IndexPage = ({ data }) => {
             },
             sameAs: [
               'https://www.linkedin.com/in/aleksa-stojsic',
-              'https://github.com/aleksa-stojsic',
+              'https://github.com/aleksastojsic',
               'https://dev.to/aleksa_stojsic',
               'https://www.facebook.com/aleksa.stojsic'
             ],

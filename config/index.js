@@ -1,44 +1,44 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@aleksa-stojsic",
-  siteTitle: "Aleksa Stojsic | Portfolio",
-  siteShortTitle: "as.", // Used as logo text in header, footer, and splash screen
+  author: '@aleksastojsic',
+  siteTitle: 'Aleksa | Portfolio',
+  siteShortTitle: 'as.', // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "Hi there! I'm Aleksa Stojsic, a Computer Science Student and Full Stack Web Developer, based in Belgrade.",
-  siteUrl: "https://aleksa-stojsic.github.io",
-  siteLanguage: "en_US",
-  siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Aleksa Stojsic", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+    "Hi there! I'm Aleksa, a Computer Science Student and Full Stack Web Developer, based in Belgrade.",
+  siteUrl: 'https://aleksastojsic.github.io',
+  siteLanguage: 'en_US',
+  siteIcon: 'content/favicon.png', // Relative to gatsby-config file
+  seoTitleSuffix: 'Aleksa', // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
 
   // -- THEME SETTINGS -----
   colors: {
     lightTheme: {
-      primary: "#000000",
-      secondary: "#CDF3E1",
-      tertiary: "#F2F2F2",
-      text: "#000000",
-      subtext: "#555555",
-      background: "#FFFFFF",
-      card: "#FFFFFF",
-      scrollBar: "rgba(0, 0, 0, 0.5)",
-      boxShadow: "rgba(0, 0, 0, 0.16)",
-      boxShadowHover: "rgba(0, 0, 0, 0.32)",
+      primary: '#000000',
+      secondary: '#CDF3E1',
+      tertiary: '#F2F2F2',
+      text: '#000000',
+      subtext: '#555555',
+      background: '#FFFFFF',
+      card: '#FFFFFF',
+      scrollBar: 'rgba(0, 0, 0, 0.5)',
+      boxShadow: 'rgba(0, 0, 0, 0.16)',
+      boxShadowHover: 'rgba(0, 0, 0, 0.32)'
     },
     darkTheme: {
-      primary: "#FAFAFA",
-      secondary: "#2A2926",
-      tertiary: "#252525",
-      text: "rgba(255, 255, 255, 0.87)",
-      subtext: "#AAAAAA",
-      background: "#121212",
-      card: "#1C1C1C",
-      scrollBar: "rgba(255, 255, 255, 0.5)",
-      boxShadow: "rgba(0, 0, 0, 0.16)",
-      boxShadowHover: "rgba(0, 0, 0, 0.32)",
-    },
+      primary: '#FAFAFA',
+      secondary: '#2A2926',
+      tertiary: '#252525',
+      text: 'rgba(255, 255, 255, 0.87)',
+      subtext: '#AAAAAA',
+      background: '#121212',
+      card: '#1C1C1C',
+      scrollBar: 'rgba(255, 255, 255, 0.5)',
+      boxShadow: 'rgba(0, 0, 0, 0.16)',
+      boxShadowHover: 'rgba(0, 0, 0, 0.32)'
+    }
   },
   fonts: {
-    primary: "Roboto, Arial, sans-serif",
+    primary: 'Roboto, Arial, sans-serif'
   },
 
   //-- ARTICLES SECTION SETTINGS -----
@@ -53,17 +53,17 @@ module.exports = {
   // Medium, GitHub, LinkedIn, XING, Behance
   socialMedia: [
     {
-      name: "Github",
-      url: "https://github.com/aleksa-stojsic",
+      name: 'Github',
+      url: 'https://github.com/aleksastojsic'
     },
     {
-      name: "Linkedin",
-      url: "https://www.linkedin.com/in/aleksa-stojsic/",
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/aleksa-stojsic/'
     },
     {
-      name: "Resume",
-      url: "https://aleksa-stojsic.github.io/resume/",
-    },
+      name: 'Resume',
+      url: 'https://aleksastojsic.github.io/resume/'
+    }
   ],
 
   //-- NAVIGATION SETTINGS -----
@@ -74,31 +74,31 @@ module.exports = {
       //   url: "/#articles",
       // },
       {
-        name: "About Me",
-        url: "/#about",
+        name: 'About Me',
+        url: '/#about'
       },
       {
-        name: "Interests/Skills",
-        url: "/#interests",
+        name: 'Interests/Skills',
+        url: '/#interests'
       },
       {
-        name: "Projects",
-        url: "/#projects",
-      },
+        name: 'Projects',
+        url: '/#projects'
+      }
     ],
     button: {
-      name: "Contact",
-      url: "/#contact",
-    },
+      name: 'Contact',
+      url: '/#contact'
+    }
   },
   footerLinks: [
     {
-      name: "Privacy",
-      url: "/privacy",
+      name: 'Privacy',
+      url: '/privacy'
     },
     {
-      name: "Imprint",
-      url: "/imprint",
-    },
-  ],
-}
+      name: 'Imprint',
+      url: '/imprint'
+    }
+  ]
+};

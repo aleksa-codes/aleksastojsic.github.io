@@ -1,9 +1,9 @@
 {
-  "name": "aleksa-stojsic-portfolio",
+  "name": "aleksa-portfolio",
   "private": true,
   "description": "My personal website - built with Gatsby.js",
   "version": "1.0.0",
-  "author": "Aleksa Stojsic <stojsic.aleksa@gmail.com>",
+  "author": "Aleksa",
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
@@ -41,9 +41,7 @@
     "gh-pages": "^3.1.0",
     "prettier": "^1.19.1"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "scripts": {
     "deploy": "gatsby build && gh-pages -d public -b master",
@@ -57,9 +55,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aleksa-stojsic/aleksa-stojsic.github.io"
+    "url": "https://github.com/aleksastojsic/aleksastojsic.github.io"
   },
   "bugs": {
-    "url": "https://github.com/aleksa-stojsic/aleksa-stojsic.github.io/issues"
+    "url": "https://github.com/aleksastojsic/aleksastojsic.github.io/issues"
   }
 }

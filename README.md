@@ -1,6 +1,6 @@
 ## My Personal Portfolio - Welcome! 👋
 
-#### My personal website - Built with [Gatsby.js](https://www.gatsbyjs.org/) and Published at [aleksa-stojsic.github.io](https://aleksa-stojsic.github.io)
+#### My personal website - Built with [Gatsby.js](https://www.gatsbyjs.org/) and Published at [aleksastojsic.github.io](https://aleksastojsic.github.io)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
