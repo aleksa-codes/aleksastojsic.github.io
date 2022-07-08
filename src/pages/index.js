@@ -1,30 +1,30 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { graphql } from "gatsby"
+import React from 'react';
+import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
 
-import GlobalStateProvider from "../context/provider"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { JsonLd } from "../components/JsonLd"
-import Hero from "../components/sections/hero"
+import GlobalStateProvider from '../context/provider';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import { JsonLd } from '../components/JsonLd';
+import Hero from '../components/sections/hero';
 // import Articles from "../components/sections/articles"
-import About from "../components/sections/about"
-import Interests from "../components/sections/interests"
-import Projects from "../components/sections/projects"
-import Contact from "../components/sections/contact"
-import { seoTitleSuffix } from "../../config"
+import About from '../components/sections/about';
+import Interests from '../components/sections/interests';
+import Projects from '../components/sections/projects';
+import Contact from '../components/sections/contact';
+import { seoTitleSuffix } from '../../config';
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.index.edges[0].node
-  const { seoTitle, useSeoTitleSuffix, useSplashScreen } = frontmatter
+  const { frontmatter } = data.index.edges[0].node;
+  const { seoTitle, useSeoTitleSuffix, useSplashScreen } = frontmatter;
 
   const globalState = {
     // if useSplashScreen=false, we skip the intro by setting isIntroDone=true
     isIntroDone: useSplashScreen ? false : true,
     // darkMode is initially disabled, a hook inside the Layout component
     // will check the user's preferences and switch to dark mode if needed
-    darkMode: false,
-  }
+    darkMode: false
+  };
 
   return (
     <GlobalStateProvider initialState={globalState}>
@@ -35,27 +35,27 @@ const IndexPage = ({ data }) => {
               ? `${seoTitle} - ${seoTitleSuffix}`
               : `${seoTitle}`
           }
-          meta={[{ name: "robots", content: "index, nofollow" }]}
+          meta={[{ name: 'robots', content: 'noindex, nofollow' }]}
         />
         <JsonLd>
           {{
-            "@context": "http://schema.org/",
-            "@type": "Person",
-            name: "Aleksa Stojsic",
-            jobTitle: "Web Developer",
-            url: "https://aleksa-stojsic.github.io",
+            '@context': 'http://schema.org/',
+            '@type': 'Person',
+            name: 'Aleksa Stojsic',
+            jobTitle: 'Web Developer',
+            url: 'https://aleksa-stojsic.github.io',
             alumniOf: {
-              "@type": "CollegeOrUniversity",
-              name: "Singidunum University",
-              sameAs: "https://en.wikipedia.org/wiki/Singidunum_University",
+              '@type': 'CollegeOrUniversity',
+              name: 'Singidunum University',
+              sameAs: 'https://en.wikipedia.org/wiki/Singidunum_University'
             },
             sameAs: [
-              "https://www.linkedin.com/in/aleksa-stojsic",
-              "https://github.com/aleksa-stojsic",
-              "https://dev.to/aleksa_stojsic",
-              "https://www.facebook.com/aleksa.stojsic",
+              'https://www.linkedin.com/in/aleksa-stojsic',
+              'https://github.com/aleksa-stojsic',
+              'https://dev.to/aleksa_stojsic',
+              'https://www.facebook.com/aleksa.stojsic'
             ],
-            alternateName: "Aleksa Stojšić",
+            alternateName: 'Aleksa Stojšić'
           }}
         </JsonLd>
         <Hero content={data.hero.edges} />
@@ -67,14 +67,14 @@ const IndexPage = ({ data }) => {
         <Contact content={data.contact.edges} />
       </Layout>
     </GlobalStateProvider>
-  )
-}
+  );
+};
 
 IndexPage.propTypes = {
-  data: PropTypes.object.isRequired,
-}
+  data: PropTypes.object.isRequired
+};
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   {
@@ -204,4 +204,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
