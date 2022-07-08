@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://aleksa-stojsic.github.io/sitemap.xml
-Host: https://aleksa-stojsic.github.io
+Sitemap: https://aleksastojsic.github.io/sitemap/sitemap-index.xml
+Host: https://aleksastojsic.github.io
