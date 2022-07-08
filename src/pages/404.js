@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-
 import GlobalStateProvider from "../context/provider"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
